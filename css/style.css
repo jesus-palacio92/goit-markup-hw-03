@@ -1,0 +1,271 @@
+body {
+    font-family: 'roboto', sans-serif;
+    font-family: 'raleway', sans-serif;
+    color: #212121;
+    font-weight: 400;
+}
+
+.container {
+    width: 1200px;    
+    margin-left: auto;
+    margin-right: auto; /* lo movi de antes de .active-link:hover aqui a este punto*/
+}
+
+/* navegacion a otros sitios*/
+
+.logo1 {
+    color: #2196f3;
+    font-family: raleway !important;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration:none;
+    margin-right: 93px; /*cambio 90 por 93 */
+}
+
+.nav-container {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center; /*cambio .nav por .nav-container tambien en html*/
+}
+
+.button-index:hover {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.active-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+    margin-right: 50px;        
+}
+
+.active-link:hover {
+    color: #2196f3; 
+}
+    /*enlace activo-cambio a:active por .active-link:hover*/
+    /* ----------------*/
+    /* index -nuevo para mi tarea 3*/
+    /* ----------------*/
+    /* contenido unico de la pagina*/
+.title-container {
+    display: flex;
+    height: 600px;
+    background-color: #2f303a;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.h1-title {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 280px;
+    padding-left: 280px;
+}
+
+.button-index {
+    color: #ffffff;
+    background-color: #2196f3;
+    border: 5px solid #2196f3;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*valores de la compañia*/
+
+.values-container {
+    display: flex;
+    margin-left: 30px;
+    padding-top: 95px;
+    justify-content: space-evenly;    
+}
+
+.values {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.values-description {
+    display: block;
+    color: #757575 !important;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* secciones*/
+
+.h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.devices-images {
+    display: flex;
+    padding-bottom: 94px;
+    justify-content: space-evenly;/*cambiar por space betwely*/
+}
+
+.member-container {
+    background-color: #f5f4fa;
+}
+
+.member-section {
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-card {
+    box-sizing: border-box;
+    width: 270px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member-image {
+    display: block;
+}
+
+.team-members {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.position {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*pie de pagina*/
+
+.footer-container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20;
+    margin-bottom: 9px;
+    background-color: #2f303a;
+    flex-direction: column;
+}
+
+.add {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;    
+}
+
+.footer-contact-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* --------------*/
+/* portafolio*/
+/* --------------*/
+
+/* contenido unico de la pagina */
+
+.buttons {
+    display: flex;
+    margin-top: 106px;
+    padding-bottom: 56px;
+    justify-content: center;
+    flex-basis: calc(100%-32px)/5;
+}
+
+.active-button {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    border: 0;
+    border-radius: 4px;
+}
+
+.active-button-hover {
+    color: #ffffff;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+/*secciones*/
+
+.project-container {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 370px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12) 0px 4px 4px rgba(0, 0, 0, 0.6) 1px 4px 6px rgba(0, 0, 0, 0.14);
+}
+
+.card-image {
+    display: block;
+}
+
+.card-heading {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.list-description {
+    color: #757575 !important;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+/* pie de pagina*/
+
+.social-media {
+    display: flex;
+    order: -1;
+    align-self: center;
+    color: #ffffff;
+    background-color: #2f303a;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
