@@ -30,11 +30,6 @@ body {
     align-items: center; /*cambio .nav por .nav-container tambien en html*/
 }
 
-.button-index:hover {
-    color: #2196f3;
-    cursor: pointer;
-}
-
 .active-link {
     color: #212121;
     font-size: 14px;
@@ -44,14 +39,21 @@ body {
     margin-right: 50px;        
 }
 
-.active-link:hover {
-    color: #2196f3; 
-}
     /*enlace activo-cambio a:active por .active-link:hover*/
     /* ----------------*/
     /* index -nuevo para mi tarea 3*/
     /* ----------------*/
     /* contenido unico de la pagina*/
+
+.button-index:hover {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.active-link:hover {
+    color: #2196f3;
+}
+
 .title-container {
     display: flex;
     height: 600px;
@@ -99,7 +101,7 @@ body {
     text-transform: uppercase;
 }
 
-.values-description {
+.values-qualification {
     display: block;
     color: #757575 !important;
     font-size: 14px;
@@ -123,17 +125,17 @@ body {
     justify-content: space-evenly;/*cambiar por space betwely*/
 }
 
-.member-container {
+.partner-container {
     background-color: #f5f4fa;
 }
 
-.member-section {
+.partner-section {
     padding-bottom: 94px;
     display: flex;
     justify-content: space-between;
 }
 
-.member-card {
+.partner-card {
     box-sizing: border-box;
     width: 270px;
     background-color: #ffffff;
@@ -141,18 +143,18 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.member-image {
+.partner-image {
     display: block;
 }
 
-.team-members {
+.group-partner {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
 }
 
-.position {
+.assignment {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
@@ -219,7 +221,7 @@ body {
 
 /*secciones*/
 
-.project-container {
+.services-container { /*cambio proyect por services*/
     display: flex;
     padding: 20px;
     padding-bottom: 90px;
@@ -227,7 +229,7 @@ body {
     gap: 20px;
 }
 
-.card {
+.services-card { /*agrego services por nada*/
     box-sizing: border-box;
     width: 370px;
     background-color: #ffffff;
@@ -235,7 +237,7 @@ body {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12) 0px 4px 4px rgba(0, 0, 0, 0.6) 1px 4px 6px rgba(0, 0, 0, 0.14);
 }
 
-.card-image {
+.services-image {
     display: block;
 }
 
@@ -250,7 +252,7 @@ body {
     line-height: 2;
 }
 
-.list-description {
+.list-services {
     color: #757575 !important;
     font-size: 16px;
     line-height: 1.9;
