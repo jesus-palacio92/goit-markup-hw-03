@@ -7,29 +7,29 @@
     <title>proyecto-estudio-tarea3</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <enlace rel="preconectar" href="https://fonts.googleapis.com"/>
-    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin/>
-    <enlace href="https: //fonts.googleapis.com/css2? familia = Raleway: peso @ 700 &family= Roboto:wght@400;500;700;900 & display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="page-header"> <!--flex-->
         <a href="/" class="logo1">WebStudio</a>
-        <nav class="container">
-            <ul>
+        <nav class="header-navigation">  <!--flex-->
+            <ul class="navigation-link"> <!--flex-->
                 <li><a class="active-link" href="./index.html">estudio</a></li>
                 <li><a class="active-link" href="./portafolio.html">portafolio</a></li>
                 <li><a class="active-link" href="">contactos</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a class="contact-link" href="mailto:info@dvstudio.com">info@dvstudio.com</a></li>
-            <li><a class="contact-link" href="tel:+52 55 5529 6000">+52 55 5529 6000</a></li>
+        <ul class="contact-link"> <!--flex-->
+            <li><a class="list-contact-link" href="mailto:info@dvstudio.com">info@dvstudio.com</a></li>
+            <li><a class="list-contact-link" href="tel:+52 55 5529 6000">+52 55 5529 6000</a></li>
         </ul>
-    </header> 
+    </header> <!-- css header nav displey flex align items center gap 100px otro margin 0 pading 0 box zizing  border box-->
     <main>
-        <section class="container button-container"> <!--el validador (advertencia)sugiere usar un h3 porque la seccion carece de encabezado-->
-            <ul>
+        <section class="seccion-container"> <!--flex-->
+            <h2 class="h2-title">Portafolio</h2> <!--flex--> <!--div class cotainer menu tabs-->
+            <ul class="container button-container"> <!--flex--> <!--ul clas menu list -flex-->
                 <li>
                     <button class="button-index" type="button">Todo</button>
                 </li>
@@ -106,9 +106,9 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer-container">
         <a href="/" class="logo1">WebStudio</a>
-        <address class="add">
+        <address>
             <ul>
                 <li><a class="footer-contact-link" href="#">Calz. Ticoman 500, Ciudad de Mexico, CDMX, Mexico</a>          
                 </li>
