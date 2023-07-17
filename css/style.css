@@ -101,10 +101,6 @@ a:is(:hover, :focus) {
 
 /*  HEADER  */
 
-.divider {
-    border: 3px solid var(--third-title-color);
-    width: 100%;
-}
 
 /*  MAIN  */
 
